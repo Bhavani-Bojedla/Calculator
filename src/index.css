@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .operator {
+    @apply flex items-center justify-center text-gray-200 bg-gray-700 border border-gray-400 rounded-md shadow-sm lg:text-2xl md:text-xl sm:text-xss phone:text-xss shadow-blue-500 hover:bg-gray-900 hover:text-white lg:w-14 lg:h-14 md:w-10 md:h-10 sm:h-9 sm:w-9 phone:h-8 phone:w-8
+  }
+  .operators {
+    @apply flex items-center justify-center lg:text-2xl md:text-xl sm:text-sm phone:text-xs border border-black rounded-md shadow-md bg-opacity-15 text-black shadow-blue-500 hover:bg-blue-300 hover:border-none hover:text-white lg:w-14 lg:h-14 md:w-10 md:h-10 sm:h-9 sm:w-9 phone:h-8 phone:w-8
+  }
+}
